@@ -13,8 +13,8 @@ export default function Body(props) {
                 </div>
                 <h2>{props.destination.title}</h2>
                 <div className="startToEnd">
-                    <p>{props.destination.startDate} </p>
-                    <p>{props.destination.endDate}</p>
+                    <p>From: {props.destination.startDate}</p>
+                    <p>To: {props.destination.endDate}</p>
                 </div>
                 <p className="description">{props.destination.description}</p>
             </div>
