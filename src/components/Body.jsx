@@ -1,5 +1,3 @@
-import Data from "./Data"
-
 export default function Body(props) {
     return (
         <div className="Body--container">
